@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <div id="blubs"></div>
+    <div class="container">
+        <div>
+            <div class="app">
+                <form class="flex input" onsubmit="return false">
+                    <div>
+                        <input placeholder="Site name or country" id="inp" required>
+                    </div>
+                    <div>
+                        <button onclick="getWeather()">search</button>
+                    </div>
+                </form>
+
+
+                <div id="content">
+                    <div>
+                        <h1 id="region">Name</h1>
+                        <div>
+                            <img src="" id="ico">
+                        </div>
+                        <h1>
+                            <span id="pais">Country</span>
+                        </h1>
+
+                    </div>
+                    <div id="datos">
+                        <span id="condicion">Condition</span>
+                        <span id="grados">Degrees</span>
+                        <span id="fecha">Date</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
